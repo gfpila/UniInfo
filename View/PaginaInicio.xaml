@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Extensionista.PaginaInicio"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Inicio"
+    IconImageSource="home.png">
+
+    <AbsoluteLayout BackgroundColor="#ffffff">
+        <Image
+            AbsoluteLayout.LayoutBounds="0.09,0.06,0.1,0.12"
+            AbsoluteLayout.LayoutFlags="All"
+            Source="appiconfg1.png" />
+        <Label
+            AbsoluteLayout.LayoutBounds="0.5, 0.094"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            FontFamily="MontserratSemiBold"
+            FontSize="24"
+            Text="Inicio"
+            TextColor="#092444" />
+        <Frame
+            AbsoluteLayout.LayoutBounds="0.5, 0.5, 0.85, 0.3"
+            AbsoluteLayout.LayoutFlags="All"
+            BorderColor="#ffffff"
+            CornerRadius="30">
+            <Frame.Background>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Offset="0.5" Color="#ffffff" />
+                    <GradientStop Offset="1" Color="#bcd7ed" />
+                </LinearGradientBrush>
+            </Frame.Background>
+        </Frame>
+        <Label
+            AbsoluteLayout.LayoutBounds="0.159, 0.45"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            FontFamily="MontserratSemiBold"
+            FontSize="22"
+            Text="Bem-vindo!"
+            TextColor="#092444" />
+        <Label
+            AbsoluteLayout.LayoutBounds="0.2, 0.53"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            FontFamily="MontserratMedium"
+            FontSize="16"
+            Text="Descubra informações&#x0a;sobre o seu curso&#x0a;dos sonhos"
+            TextColor="#345d97" />
+        <Image
+            AbsoluteLayout.LayoutBounds="0.85, 0.45, 0.35, 0.35"
+            AbsoluteLayout.LayoutFlags="All"
+            Source="circulo.png" />
+        <Image
+            AbsoluteLayout.LayoutBounds="0.85, 0.5, 0.35, 0.35"
+            AbsoluteLayout.LayoutFlags="All"
+            Source="aluno.png" />
+
+    </AbsoluteLayout>
+</ContentPage>
